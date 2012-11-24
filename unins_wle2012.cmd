@@ -18,7 +18,9 @@ ECHO      4. 已測試作業系統平台：
 ECHO           Windows 7 x86 SP0, SP1 (全版本)
 ECHO           Windows 7 x64 SP0, SP1 (全版本)
 ECHO           Windows Server 2008 R2 SP1 (全版本)
-ECHO         非支援平台(例如 Windows Server 2008 無印版)仍可使用，
+ECHO           Windows 8 x86 (全版本)
+ECHO           Windows 8 x64 (全版本)
+ECHO           非支援平台(例如 Windows Server 2012 無印版)仍可使用，
 ECHO         但可能會有未移除乾淨的元件。
 ECHO                                                                三秒練功房製
 ECHO                                                        更新日期：2012/11/25
@@ -37,7 +39,9 @@ ECHO      正在移除 MSVCRT，請稍候...
 ECHO      正在移除 MSVCRT110，請稍候...
 %Uninstall% {8E14DDC8-EA60-4E18-B3E3-1937104D5BDA}
 ECHO      正在移除 MSVCRT_amd64，請稍候...
-%Uninstall% 
+%Uninstall% {D0B44725-3666-492D-BEF6-587A14BD9BD9}
+ECHO      正在移除 MSVCRT110_amd64，請稍候...
+%Uninstall% {E9FA781F-3E80-4399-825A-AD3E11C28C77}
 ECHO      正在移除 Windows Live Communications Platform，請稍候...
 %Uninstall% {BA73469B-D8C7-4FE3-B33C-1340D09F0709}
 %Uninstall% {0454BB9A-2A7A-4214-BDFF-937F7A711A44}
@@ -46,8 +50,10 @@ ECHO      正在移除 Windows Live Family Safety，請稍候...
 %Uninstall% {F10CF3CE-8D01-42CF-B5E1-34788B2731A0}
 %Uninstall% {1D03A585-879D-45DB-B77A-C4D5A04E7286}
 %Uninstall% {4926AA2D-3C66-443D-A456-53AE3FA44144}
+%Uninstall% {5F611ADA-B98C-4DBB-ADDE-414F08457ECF}
 ECHO      正在移除 Windows Live ID Sign-in Assistant，請稍候...
 %Uninstall% {8256F87F-8554-4457-8C3D-3F3324697D9F}
+%Uninstall% {CE52672C-A0E9-4450-8875-88A221D5CD50}
 ECHO      正在移除 Windows Live Installer，請稍候...
 %Uninstall% {76EE8FE7-1957-4C51-9074-4930A8CFB1AF}
 %Uninstall% {C424CD5E-EA05-4D3E-B5DA-F9F149E1D3AC}
@@ -64,6 +70,7 @@ ECHO      正在移除 Windows Live Messenger，請稍候...
 ECHO      正在移除 Windows Live MIME IFilter，請稍候...
 %Uninstall% {A037DE27-45D9-455F-B8E0-D33690E45DF9}
 %Uninstall% {1B947146-366B-42CD-86D5-219993CE3EE2}
+%Uninstall% {F6822EFD-3F7D-4B35-8845-757A26AEC8E2}
 ECHO      正在移除 Windows Live Movie Maker，請稍候...
 %Uninstall% {8AB3FBDE-CCF7-4055-98EF-A1FBC7B661E9}
 %Uninstall% {D71BC54E-A4E6-4E06-866C-FD6EE16EA187}
