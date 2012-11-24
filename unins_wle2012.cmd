@@ -12,6 +12,7 @@ ECHO         如要離開請按 Ctrl+C。
 ECHO      2. 請使用"以系統管理員身份執行"本批次檔，以免反覆跳出提示訊息，造成困擾。
 ECHO      3. 本移除程式可移除下列版本的 Windows Live 程式集 2012，
 ECHO           Build 16.4.3503.0728 繁體中文版
+ECHO           Build 16.4.3505.0912 繁體中文版
 ECHO         如您安裝的不是上列版本，將不做任何異動。
 ECHO      4. 已測試作業系統平台：
 ECHO           Windows Vista x86 SP2 (全版本)
